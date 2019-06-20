@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ColorMaps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://gibs.earthdata.nasa.gov/schemas/ColorMap_v1.3.xsd">
+  <ColorMap title="No Data">
+    <Entries>
+      <ColorMapEntry rgb="31,31,31" transparent="true" nodata="true" ref="0"/>
+    </Entries>
+    <Legend type="classification">
+      <LegendEntry rgb="31,31,31" tooltip="No Data" id="0"/>
+    </Legend>
+  </ColorMap>
+  <ColorMap title="Classifications">
+    <Entries>
+      <ColorMapEntry rgb="218,112,214" transparent="false" sourceValue="200" ref="1"/>
+    </Entries>
+    <Legend type="classification">
+      <LegendEntry rgb="218,112,214" tooltip="Sea Ice" id="1"/>
+    </Legend>
+  </ColorMap>
+  <ColorMap title="Unknown">
+    <Entries>
+      <ColorMapEntry rgb="0,0,0" transparent="true" ref="2"/>
+      <ColorMapEntry rgb="0,0,255" transparent="true" ref="3"/>
+      <ColorMapEntry rgb="127,255,212" transparent="true" ref="4"/>
+      <ColorMapEntry rgb="160,32,240" transparent="true" ref="5"/>
+      <ColorMapEntry rgb="170,170,170" transparent="true" ref="6"/>
+      <ColorMapEntry rgb="181,181,181" transparent="true" ref="7"/>
+      <ColorMapEntry rgb="255,0,0" transparent="true" ref="8"/>
+      <ColorMapEntry rgb="255,0,255" transparent="true" ref="9"/>
+      <ColorMapEntry rgb="255,255,0" transparent="true" ref="10"/>
+      <ColorMapEntry rgb="46,139,87" transparent="true" ref="11"/>
+    </Entries>
+    <Legend type="classification">
+      <LegendEntry rgb="0,0,0" tooltip="Unknown 1" id="2"/>
+      <LegendEntry rgb="0,0,255" tooltip="Unknown 2" id="3"/>
+      <LegendEntry rgb="127,255,212" tooltip="Unknown 3" id="4"/>
+      <LegendEntry rgb="160,32,240" tooltip="Unknown 4" id="5"/>
+      <LegendEntry rgb="170,170,170" tooltip="Unknown 5" id="6"/>
+      <LegendEntry rgb="181,181,181" tooltip="Unknown 6" id="7"/>
+      <LegendEntry rgb="255,0,0" tooltip="Unknown 7" id="8"/>
+      <LegendEntry rgb="255,0,255" tooltip="Unknown 8" id="9"/>
+      <LegendEntry rgb="255,255,0" tooltip="Unknown 9" id="10"/>
+      <LegendEntry rgb="46,139,87" tooltip="Unknown 10" id="11"/>
+    </Legend>
+  </ColorMap>
+</ColorMaps>
